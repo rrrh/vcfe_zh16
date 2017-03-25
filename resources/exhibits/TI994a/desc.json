@@ -1,0 +1,55 @@
+{
+    "number"		: "3",
+    "title" 		: "TI994a",
+
+    "main_img"		: "TI-994a_180x180_8.png",
+    "icon_64_img"  	: "TI-994a_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The Texas Instruments^",
+"TI-99/4A is a home computer,^",
+"released June 1981 in the^",
+"United States at a price^",
+"of $525 ($1,369 adjusted^",
+"for inflation). It is an^",
+"enhanced version of the^",
+"less successful TI-99/4^",
+"model, which was released^",
+"in late 1979 at a price^",
+"of $1,150 ($3,756 adjusted^",
+"for inflation). The^",
+"TI-99/4 had a calculator-^",
+"style chiclet keyboard^",
+"and a character set that^",
+"lacked lowercase text.^",
+"The TI-99/4A added an^",
+"additional graphics mode,^",
+"'lowercase' characters^",
+"consisting of small^",
+"capitals, and a full-travel^",
+"keyboard. Both used 16-bit^",
+"processors, making the^",
+"TI-99/4 series the first^",
+"16-bit home computers.^"
+			],
+	
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

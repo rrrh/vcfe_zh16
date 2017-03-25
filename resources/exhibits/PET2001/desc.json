@@ -1,0 +1,49 @@
+{
+    "number"		: "3",
+    "title" 		: "PET2001",
+
+    "main_img"		: "PET2001_180x180_8.png",
+    "icon_64_img"  	: "PET2001_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The Commodore PET (Personal^",
+"Electronic Transactor) is a^",
+"line of home/personal^",
+"computers produced starting^",
+"in 1977 by Commodore^",
+"International. A top-seller^",
+"in the Canadian and United^",
+"States educational markets,^",
+"it was Commodore's first^",
+"full-featured computer,^",
+"and formed the basis for^",
+"their entire 8-bit product^",
+"line, including the^",
+"Commodore 64. The first^",
+"model, which was named^",
+"the PET 2001, was the^",
+"first personal computer ever^",
+"made available to retail^",
+"consumers.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

@@ -1,0 +1,60 @@
+{
+    "number"		: "3",
+    "title" 		: "JUPITER_ACE",
+
+    "main_img"		: "jupiter-ace_180x180_8.png",
+    "icon_64_img"  	: "jupiter-ace_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The Jupiter Ace was a British^",
+"home computer of the early^",
+"1980s. It was produced by the^",
+"company Jupiter Cantab which^",
+"as set up for the purpose.^",
+"The Ace differed from other^",
+"microcomputers of the time^",
+"in that it used Forth^",
+"instead of the more popular^",
+"BASIC. After Jupiter Cantab^",
+"ceased trading, the brand^",
+"was acquired by Boldfield^",
+"Computing Ltd in 1984,^",
+"before eventually being^",
+"sold to Andrews UK Limited^",
+"in 2015 (the company^",
+"owned by Paul Andrews, who^",
+"also conceived the Sinclair^",
+"Spectrum ZX Vega games^",
+"console).^"
+			],
+	
+	"bg_table"	:
+		[
+		"0x03, 0xea",
+	"0x29, 0x77",
+	"0x39, 0xde",
+	"0x10, 0x8a",
+	"0x3e, 0x22",
+	"0x25, 0x33",
+	"0x4e, 0xa8",
+	"0x39, 0xfc",
+	"0x63, 0x2e",
+	"0x2d, 0x54",
+	"0x7f, 0x99",
+	"0x5a, 0x8a",
+	"0x66, 0xf1",
+	"0x52, 0x69"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

@@ -1,0 +1,64 @@
+{
+    "number"		: "1",
+    "title" 		: "Altair_8800",
+
+    "main_img"		: "Altair_8800_180x180_8.png",
+    "icon_64_img"  	: "Altair_8800_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+	"__comment" : "                            ",
+    "text"		: 
+			[	
+				"The Altair 8800 is a^",
+				"micro-computer designed^",
+				"in 1974 by MITS and based^",
+				"on the Intel 8080 CPU.^",
+				"The designers hoped to^",
+				"sell a few hundred build-^",
+				"it-yourself kits to^",
+				"hobbyists, and were^",
+				"surprised when they sold^",
+				"thousands in the first month.^",
+				"The Altair also appealed to^",
+				"individuals and businesses^",
+				"that just wanted a computer^",
+				"and purchased the assembled^",
+				"version. The Altair is widely^",
+				"recognized as the spark that^",
+				"ignited the microcomputer^",
+				"revolution as the first^",
+				"commercially successful^",
+				"personal computer."
+			],
+			
+	"bg_table"	:
+		[
+		"0x7e, 0x85",
+	"0x7c, 0xe5",
+	"0x7c, 0xab",
+	"0x7c, 0xb4",
+	"0x70, 0xbf",
+	"0x34, 0xbf",
+	"0x15, 0x1f",
+	"0x15, 0xdf",
+	"0x16, 0x9f",
+	"0x17, 0x3f",
+	"0x17, 0xbf",
+	"0x17, 0xf9",
+	"0x17, 0xec",
+	"0x2f, 0xe5",
+	"0x6f, 0xe5, 0x0"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+		
+	"font_col"	: "0xFFFF"
+}
+

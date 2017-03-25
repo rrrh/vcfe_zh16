@@ -1,0 +1,44 @@
+{
+    "number"		: "5",
+    "title" 		: "BBC_Micro",
+
+    "main_img"		: "BBC_Micro_180x180_8.png",
+    "icon_64_img"  	: "BBC_Micro_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The BBC Microcomputer System,^",
+"or BBC Micro, is a series of^",
+"microcomputers and associated^",
+"peripherals designed and built^",
+"by the Acorn Computer company^",
+"for the BBC Computer Literacy^",
+"Project, operated by the^",
+"British Broadcasting^",
+"Corporation. Designed with an^",
+"emphasis on education, it was^",
+"notable for its ruggedness,^",
+"expandability, and the^",
+"quality of its operating^",
+"system.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

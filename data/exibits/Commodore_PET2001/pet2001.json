@@ -1,0 +1,19 @@
+{
+    "title" : "PET2001",
+    "pic" 	: "PET2001_180x180_8.pic",
+	"clr" 	: "PET2001_180x180_8.clr",
+	"map" 	: "PET2001_180x180_8.map",
+	
+	"icon"	: "Commodore_PET2001_180px_nq.pic",
+	"text"	: 
+			[	
+				"Lorem ipsum dolor sit amet, consectetuer",
+				"adipiscing elit. Aenean commodo ligula",
+				"eget dolor. Aenean massa. Cum sociis",
+				"natoque penatibus et magnis dis parturient",
+				"montes, nascetur ridiculus mus. Donec quam",
+				"felis, ultricies nec, pellentesque eu,",
+				"pretium quis, sem."
+			]
+}
+

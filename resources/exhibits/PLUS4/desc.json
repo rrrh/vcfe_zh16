@@ -1,0 +1,55 @@
+{
+    "number"		: "3",
+    "title" 		: "PLUS4",
+
+    "main_img"		: "plus4_180x180_8.png",
+    "icon_64_img"  	: "plus4_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The Commodore Plus/4 is a^",
+"home computer released by^",
+"Commodore International in^",
+"1984. The 'Plus/4' name refers^",
+"to the four-application ROM^",
+"resident office suite (word^",
+"processor, spreadsheet,^",
+"database, and graphing);^",
+"it was billed as 'the^",
+"productivity computer with^",
+"software built-in'.^",
+"Internally, the Plus/4^",
+"shares the same basic^",
+"architecture as the lower-^",
+"end Commodore 16 and 116^",
+"models, and is able to use^",
+"software and peripherals^",
+"designed for them. However,^",
+"it is not compatible with^",
+"the well-established Commodore^",
+"64. While the Plus/4 had some^",
+"success in Europe, it was a^",
+"failure in the United States,^",
+"where it was derided as the^",
+"'Minus/60'.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

@@ -1,0 +1,52 @@
+{
+    "number"		: "3",
+    "title" 		: "ORIC1",
+
+    "main_img"		: "ORIC-1_180x180_8.png",
+    "icon_64_img"  	: "ORIC-1_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"Based on a MOS 1 MHz 6502A^",
+"CPU, the Oric-1 came in 16^",
+"KB or 48 KB RAM variants^",
+"for 129 and 169 GBP^",
+"respectively, matching the^",
+"models available for the^",
+"popular ZX Spectrum and^",
+"undercutting the price of^",
+"the 48 KB version of the^",
+"Spectrum by a few pounds.^",
+"The '48 KB' Oric-1 version^",
+"was actually 64 KB. The top^",
+"16 KB of memory are masked^",
+"by the BASIC ROM and thus^",
+"normally not available for^",
+"the user; The optional disc^",
+"drive unit contains some^",
+"additional hardware that^",
+"allows it to enable or^",
+"disable the ROM, effectively^",
+"adding 16 KB of RAM to the^",
+"machine.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

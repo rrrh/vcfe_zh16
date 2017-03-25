@@ -1,0 +1,21 @@
+{
+    "number"		: "3",
+    "title" 		: "NES",
+
+    "main_img"		: "NES_180x180_8.png",
+    "icon_64_img"  	: "NES_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"Lorem ipsum dolor sit amet, consectetuer",
+				"adipiscing elit. Aenean commodo ligula",
+				"eget dolor. Aenean massa. Cum sociis",
+				"natoque penatibus et magnis dis parturient",
+				"montes, nascetur ridiculus mus. Donec quam",
+				"felis, ultricies nec, pellentesque eu,",
+				"pretium quis, sem."
+			]
+}
+

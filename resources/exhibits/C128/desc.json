@@ -1,0 +1,42 @@
+{
+    "number"		: "3",
+    "title" 		: "C128",
+
+    "main_img"		: "C128_180x180_8.png",
+    "icon_64_img"  	: "C128_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The Commodore 128, also known^",
+"as the C128, C-128, C= 128,^",
+"or occasionally CBM 128, is^",
+"the last 8-bit home computer^",
+"that was commercially^",
+"released by Commodore^",
+"Business Machines (CBM).^",
+"Introduced in January 1985^",
+"at the CES in Las Vegas,^",
+"it appeared three years^",
+"after its predecessor,^",
+"the bestselling Commodore 64.^"
+			],
+		
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

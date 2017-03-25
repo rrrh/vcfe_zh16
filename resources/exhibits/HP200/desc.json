@@ -1,0 +1,46 @@
+{
+    "number"		: "3",
+    "title" 		: "HP200",
+
+    "main_img"		: "hp200_180x180_8.png",
+    "icon_64_img"  	: "hp200_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The HP 200LX (F1060A, F1061A,^",
+"F1216A), also known as^",
+"project Felix, is a^",
+"personal digital^",
+"assistant introduced by^",
+"Hewlett-Packard in 1994.^",
+"It was often called a Palmtop^",
+"PC, and it was notable that^",
+"it was, with some minor^",
+"exceptions, a MS-DOS-^",
+"compatible computer^",
+"in a palmtop format,^",
+"complete with a monochrome^",
+"graphic display, QWERTY^",
+"keyboard, serial port,^",
+"and PCMCIA expansion slot.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

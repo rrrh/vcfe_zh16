@@ -1,0 +1,48 @@
+{
+    "number"		: "3",
+    "title" 		: "Lilith1",
+
+    "main_img"		: "lilith_180x180_8.png",
+    "icon_64_img"  	: "lilith_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"Lilith is the name of a^",
+"custom built workstation^",
+"using the AMD 2901 bit-slice^",
+"processor by the group of^",
+"Niklaus Wirth at ETH Zuerich.^",
+"The project started in^",
+"1977 and by 1984 several^",
+"hundred workstations were^",
+"in use. It had a high^",
+"resolution full page^",
+"display, a mouse, a laser^",
+"printer interface, and a^",
+"network interface.^",
+"Its software was written^",
+"completely in Modula-2 and^",
+"included a relational^",
+"database program called^",
+"Lidas.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

@@ -1,0 +1,51 @@
+{
+    "number"		: "3",
+    "title" 		: "Apple_Lisa",
+
+    "main_img"		: "Apple_Lisa_180x180_8.png",
+    "icon_64_img"  	: "Apple_Lisa_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+	"__comment" : "                            ",
+    "text"		: 
+			[	
+				"Apple Lisa was a desktop^",
+"computer developed by Apple,^",
+"released on January 19, 1983.^",
+"It was one of the first^",
+"personal computers to offer^",
+"a graphical user interface^",
+"in a machine aimed at^",
+"individual business users.^",
+"Development of the Lisa began^",
+"in 1978, and it underwent^",
+"many changes during the^",
+"development period before^",
+"shipping at the very high^",
+"price of US$9,995 with a 5^",
+"MB hard drive. The high^",
+"price, relatively low^",
+"performance and unreliable^",
+"'Twiggy' floppy disks led to^",
+"poor sales, with only^",
+"100,000 units sold.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

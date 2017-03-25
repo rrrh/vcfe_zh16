@@ -1,0 +1,15 @@
+.word $7e85
+.word $153f
+.word $171f
+.word $7ec9
+.word $25bf
+.word $273f
+.word $7f0e
+.word $3a3f
+.word $3b5f
+.word $7f53
+.word $4ebf
+.word $4f9f
+.word $7f98
+.word $633f
+.word $63bf

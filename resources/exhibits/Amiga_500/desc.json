@@ -1,0 +1,47 @@
+{
+    "number"		: "2",
+    "title" 		: "Amiga_500",
+
+    "main_img"		: "Amiga_500_180x180_8.png",
+    "icon_64_img"  	: "Amiga_500_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+	"__comment" : "                            ",
+    "text"		: 			[	
+				"The Amiga 500, also known as^",
+				"the A500, is the first low-^",
+				"end Commodore Amiga 16/32-bit^",
+				"multimedia home/personal^",
+				"computer. It was announced at^",
+				"the winter Consumer Electro-^",
+				"nics Show in January 1987.^",
+				"Graphics can be displayed in^",
+				"multiple resolutions and^",
+				"color depths, even on the^",
+				"same screen. The system uses^",
+				"planar graphics, with up to^",
+				"five bitplanes (four in high^",
+				"resolution) allowing 2-, 4-,^",
+				"8-, 16-, and 32-color^",
+				"screens, from a palette of^",
+				"4096 colors.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

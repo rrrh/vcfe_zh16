@@ -1,0 +1,15 @@
+.word $18c6
+.word $318c
+.word $4a53
+.word $6319
+.word $7fdf
+.word $7fdf
+.word $7fdf
+.word $7fdf
+.word $7fdf
+.word $7fdf
+.word $7bdf
+.word $7fdf
+.word $7fdf
+.word $7fdf
+.word $7fff

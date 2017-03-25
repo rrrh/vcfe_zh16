@@ -1,0 +1,51 @@
+{
+    "number"		: "3",
+    "title" 		: "IMSAI8080",
+
+    "main_img"		: "imsai8080_180x180_8.png",
+    "icon_64_img"  	: "imsai8080_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"The IMSAI 8080 was an early^",
+"microcomputer released in^",
+"late 1975, based on the Intel^",
+"8080 and later 8085 and^",
+"S-100 bus. It was a^",
+"clone of its main competitor,^",
+"the earlier MITS Altair 8800.^",
+"The IMSAI is largely regarded^",
+"as the first 'clone'^",
+"microcomputer. The IMSAI^",
+"machine ran a highly modified^",
+"version of the CP/M operating^",
+"system called IMDOS.^",
+"It was developed,^",
+"manufactured and sold by^",
+"IMS Associates, Inc.^",
+"(later renamed IMSAI^",
+"Manufacturing Corp). In^",
+"total, between 17,000 and^",
+"20,000 units were produced^",
+"from 1975 to 1978.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

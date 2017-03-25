@@ -1,0 +1,688 @@
+Modules list:
+-------------
+startup.o:
+    CODE              Offs = 000000   Size = 000044
+    BSS               Offs = 000000   Size = 000102
+snes_funcs.o:
+    CODE              Offs = 000044   Size = 000507
+    RODATA            Offs = 000000   Size = 000002
+    BSS               Offs = 000102   Size = 000222
+    DATA              Offs = 000000   Size = 000111
+ExhibitView.o:
+    CODE              Offs = 00054B   Size = 000998
+    RODATA            Offs = 000002   Size = 000002
+    BSS               Offs = 000324   Size = 000022
+    DATA              Offs = 000111   Size = 0000AA
+StartScreen.o:
+    CODE              Offs = 000EE3   Size = 000455
+    RODATA            Offs = 000004   Size = 000002
+    DATA              Offs = 0001BB   Size = 0000D6
+DemoView.o:
+    CODE              Offs = 001338   Size = 00033E
+    RODATA            Offs = 000006   Size = 00000F
+    BSS               Offs = 000346   Size = 000122
+    DATA              Offs = 000291   Size = 00002F
+timeline.o:
+    DATA              Offs = 0002C0   Size = 000008
+core.o:
+    CODE              Offs = 001676   Size = 000526
+    RODATA            Offs = 000015   Size = 002CE9
+    BSS               Offs = 000468   Size = 000006
+    DATA              Offs = 0002C8   Size = 000158
+vcfe_scroller.o:
+    CODE              Offs = 001B9C   Size = 000001
+    RODATA            Offs = 002CFE   Size = 000002
+    BSS               Offs = 00046E   Size = 000800
+sndutils.o:
+    CODE              Offs = 001B9D   Size = 000097
+utils.o:
+    CODE              Offs = 001C34   Size = 0001AF
+    BSS               Offs = 000C6E   Size = 00001A
+data.o:
+    RODATA            Offs = 002D00   Size = 00021E
+    DATA              Offs = 000420   Size = 000002
+    GFX1              Offs = 000000   Size = 007A40
+    GFX3              Offs = 000000   Size = 007A40
+    GFX9              Offs = 000000   Size = 001600
+    GFXA              Offs = 000000   Size = 004208
+data_e.o:
+    GFX4              Offs = 000000   Size = 0002C0
+    GFX5              Offs = 000000   Size = 010000
+    GFX6              Offs = 000000   Size = 010000
+    GFX7              Offs = 000000   Size = 010000
+    GFX8              Offs = 000000   Size = 006800
+exibits.o:
+    RODATA            Offs = 002F1E   Size = 000006
+    GFX4              Offs = 0002C0   Size = 000040
+    GFXC              Offs = 000000   Size = 005000
+hdr.o:
+    CODE              Offs = 001DE3   Size = 000001
+    ROMRESHEADER      Offs = 000000   Size = 000010
+    ROMHEADER         Offs = 000000   Size = 000020
+    VECTORS           Offs = 000000   Size = 000020
+/opt/local/lib/cc65/lib/c64.lib(add.o):
+    CODE              Offs = 001DE4   Size = 00001A
+/opt/local/lib/cc65/lib/c64.lib(addeqsp.o):
+    CODE              Offs = 001DFE   Size = 000011
+/opt/local/lib/cc65/lib/c64.lib(addysp.o):
+    CODE              Offs = 001E0F   Size = 00000E
+/opt/local/lib/cc65/lib/c64.lib(and.o):
+    CODE              Offs = 001E1D   Size = 000010
+/opt/local/lib/cc65/lib/c64.lib(aslax2.o):
+    CODE              Offs = 001E2D   Size = 00000B
+/opt/local/lib/cc65/lib/c64.lib(aslax4.o):
+    CODE              Offs = 001E38   Size = 000011
+/opt/local/lib/cc65/lib/c64.lib(asrax2.o):
+    CODE              Offs = 001E49   Size = 00000F
+/opt/local/lib/cc65/lib/c64.lib(asrax3.o):
+    CODE              Offs = 001E58   Size = 000014
+/opt/local/lib/cc65/lib/c64.lib(asrax4.o):
+    CODE              Offs = 001E6C   Size = 000019
+/opt/local/lib/cc65/lib/c64.lib(call.o):
+    CODE              Offs = 001E85   Size = 000007
+/opt/local/lib/cc65/lib/c64.lib(compl.o):
+    CODE              Offs = 001E8C   Size = 000009
+/opt/local/lib/cc65/lib/c64.lib(decsp2.o):
+    CODE              Offs = 001E95   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(decsp3.o):
+    CODE              Offs = 001EA2   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(decsp4.o):
+    CODE              Offs = 001EAF   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(decsp5.o):
+    CODE              Offs = 001EBC   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(decsp6.o):
+    CODE              Offs = 001EC9   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(decsp8.o):
+    CODE              Offs = 001ED6   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(icmp.o):
+    CODE              Offs = 001EE3   Size = 00002E
+/opt/local/lib/cc65/lib/c64.lib(incsp1.o):
+    CODE              Offs = 001F11   Size = 000007
+/opt/local/lib/cc65/lib/c64.lib(incsp2.o):
+    CODE              Offs = 001F18   Size = 000016
+/opt/local/lib/cc65/lib/c64.lib(incsp3.o):
+    CODE              Offs = 001F2E   Size = 000005
+/opt/local/lib/cc65/lib/c64.lib(incsp4.o):
+    CODE              Offs = 001F33   Size = 000005
+/opt/local/lib/cc65/lib/c64.lib(incsp6.o):
+    CODE              Offs = 001F38   Size = 000005
+/opt/local/lib/cc65/lib/c64.lib(incsp7.o):
+    CODE              Offs = 001F3D   Size = 000005
+/opt/local/lib/cc65/lib/c64.lib(incsp8.o):
+    CODE              Offs = 001F42   Size = 000005
+/opt/local/lib/cc65/lib/c64.lib(ldai.o):
+    CODE              Offs = 001F47   Size = 00000C
+/opt/local/lib/cc65/lib/c64.lib(linc.o):
+    CODE              Offs = 001F53   Size = 000011
+/opt/local/lib/cc65/lib/c64.lib(lsave.o):
+    CODE              Offs = 001F64   Size = 00001C
+/opt/local/lib/cc65/lib/c64.lib(mod.o):
+    CODE              Offs = 001F80   Size = 000014
+/opt/local/lib/cc65/lib/c64.lib(mul8.o):
+    CODE              Offs = 001F94   Size = 00003A
+/opt/local/lib/cc65/lib/c64.lib(neg.o):
+    CODE              Offs = 001FCE   Size = 00000E
+/opt/local/lib/cc65/lib/c64.lib(or.o):
+    CODE              Offs = 001FDC   Size = 000012
+/opt/local/lib/cc65/lib/c64.lib(popsreg.o):
+    CODE              Offs = 001FEE   Size = 000010
+/opt/local/lib/cc65/lib/c64.lib(pusha.o):
+    CODE              Offs = 001FFE   Size = 000016
+/opt/local/lib/cc65/lib/c64.lib(pushax.o):
+    CODE              Offs = 002014   Size = 00001A
+/opt/local/lib/cc65/lib/c64.lib(shelp.o):
+    CODE              Offs = 00202E   Size = 00001E
+/opt/local/lib/cc65/lib/c64.lib(shl.o):
+    CODE              Offs = 00204C   Size = 00002B
+/opt/local/lib/cc65/lib/c64.lib(staxsp.o):
+    CODE              Offs = 002077   Size = 00000B
+/opt/local/lib/cc65/lib/c64.lib(staxspi.o):
+    CODE              Offs = 002082   Size = 00001B
+/opt/local/lib/cc65/lib/c64.lib(subysp.o):
+    CODE              Offs = 00209D   Size = 00000D
+/opt/local/lib/cc65/lib/c64.lib(udiv.o):
+    CODE              Offs = 0020AA   Size = 00004F
+/opt/local/lib/cc65/lib/c64.lib(umod.o):
+    CODE              Offs = 0020F9   Size = 000011
+/opt/local/lib/cc65/lib/c64.lib(xor.o):
+    CODE              Offs = 00210A   Size = 000012
+/opt/local/lib/cc65/lib/c64.lib(zeropage.o):
+    ZEROPAGE          Offs = 000000   Size = 00001A
+
+
+Segment list:
+-------------
+Name                  Start   End     Size
+--------------------------------------------
+ZEROPAGE              000000  000019  00001A
+BSS                   000200  000E87  000C88
+DATA                  000E88  0012A9  000422
+CODE                  008000  00A11B  00211C
+RODATA                00A53E  00D461  002F24
+ROMRESHEADER          00FFB0  00FFBF  000010
+ROMHEADER             00FFC0  00FFDF  000020
+VECTORS               00FFE0  00FFFF  000020
+GFX1                  410000  417A3F  007A40
+GFX3                  430000  437A3F  007A40
+GFX4                  440000  4402FF  000300
+GFX5                  450000  45FFFF  010000
+GFX6                  460000  46FFFF  010000
+GFX7                  470000  47FFFF  010000
+GFX8                  480000  4867FF  006800
+GFX9                  490000  4915FF  001600
+GFXA                  4A0000  4A4207  004208
+GFXC                  4C0000  4C4FFF  005000
+
+
+Exports list:
+-------------
+_DemoView                 00113C RLA    _ExhibitView              001035 RLA    
+_StartScreen              00110B RLA    __DATA_LOAD__             00A11C RLA    
+__DATA_RUN__              000E88 RLA    __DATA_SIZE__             000422 REA    
+__SOFTSTACK_SIZE__        0000FF REA    __SOFTSTACK_START__       000100 RLA    
+__ZP_START__              000000 RLA    _addDMAChannel            008084 RLA    
+_addHDMAChannel           00813D RLA    _calculateRotScale        0082F9 RLA    
+_clearAllDMA              00807D RLA    _exhibits                 00117C RLA    
+_frame_count              0012A6 RLA    _init                     0099AE RLA    
+_initDMATransfer          008061 RLA    _initHDMATransfer         008065 RLA    
+_nmi                      009676 RLA    _printsnes                0081F6 RLA    
+_random                   0084C5 RLA    _res_clr_bg_pal_pet2001   00D23E RLA    
+_res_clr_startup7         430000 RLA    _res_map_border           4A3A08 RLA    
+_res_map_startup7         433A40 RLA    _res_pic_border           4A2A08 RLA    
+_res_pic_font             4A0008 RLA    _res_pic_startup7         430200 RLA    
+_setDisp                  008044 RLA    _setPal                   00804C RLA    
+_sin_table_s              00D25C RLA    _sin_table_us             00D35C RLA    
+_start                    009A4F RLA    _startDMATransfer         008069 RLA    
+_startHDMATransfer        008073 RLA    _text_table               00066E RLA    
+_timeline                 001148 RLA    _vcfe_scroller_init       009B9C RLA    
+addeq0sp                  009DFE RLA    addeqysp                  009E00 RLA    
+addysp                    009E10 RLA    addysp1                   009E0F RLA    
+aslax2                    009E2D RLA    aslax4                    009E38 RLA    
+asrax2                    009E49 RLA    asrax3                    009E58 RLA    
+asrax4                    009E6C RLA    callax                    009E85 RLA    
+clear_snes                009C40 RLA    complax                   009E8C RLA    
+copydata                  009D3D RLA    decsp2                    009E95 RLA    
+decsp3                    009EA2 RLA    decsp4                    009EAF RLA    
+decsp5                    009EBC RLA    decsp6                    009EC9 RLA    
+decsp8                    009ED6 RLA    emu_irq                   00801D RLA    
+emu_nmi                   00801C RLA    emu_reset                 00801E RLA    
+end_force_vblank          009C3A RLA    force_vblank              009C34 RLA    
+inceaxy                   009F53 RLA    incsp1                    009F11 RLA    
+incsp2                    009F20 RLA    incsp3                    009F2E RLA    
+incsp4                    009F33 RLA    incsp6                    009F38 RLA    
+incsp7                    009F3D RLA    incsp8                    009F42 RLA    
+ldaidx                    009F47 RLA    native_irq                00801B RLA    
+native_nmi                008000 RLA    negax                     009FCE RLA    
+popax                     009F18 RLA    popsargs                  00A02E RLA    
+popsreg                   009FEE RLA    ptr1                      000008 RLZ    
+ptr2                      00000A RLZ    ptr4                      00000E RLZ    
+push0                     00A014 RLA    pusha                     00A002 RLA    
+pusha0                    00A016 RLA    pushax                    00A018 RLA    
+regsave                   000004 RLZ    resteax                   009F73 RLA    
+restoreZP                 009D76 RLA    saveeax                   009F64 RLA    
+shlax2                    009E2D RLA    shlax4                    009E38 RLA    
+sp                        000000 RLZ    sreg                      000002 RLZ    
+stax0sp                   00A077 RLA    staxspidx                 00A082 RLA    
+staxysp                   00A079 RLA    storeZP                   009D6A RLA    
+subysp                    00A09D RLA    tmp1                      000010 RLZ    
+tmp2                      000011 RLZ    tosaddax                  009DE6 RLA    
+tosandax                  009E1F RLA    tosaslax                  00A04C RLA    
+tosicmp                   009EE5 RLA    tosmoda0                  009F80 RLA    
+tosmodax                  009F82 RLA    tosmula0                  009F94 RLA    
+tosorax                   009FDE RLA    tosshlax                  00A04C RLA    
+tosumoda0                 00A0F9 RLA    tosumodax                 00A0FB RLA    
+tosxorax                  00A10C RLA    udiv16                    00A0BB RLA    
+
+
+
+Imports list:
+-------------
+_DemoView (DemoView.o):
+    timeline.o                out/timeline.s(20)
+_ExhibitView (ExhibitView.o):
+    timeline.o                out/timeline.s(19)
+_StartScreen (StartScreen.o):
+    timeline.o                out/timeline.s(18)
+__DATA_LOAD__ ([linker generated]):
+    utils.o                   lib/utils.s(8)
+__DATA_RUN__ ([linker generated]):
+    utils.o                   lib/utils.s(8)
+__DATA_SIZE__ ([linker generated]):
+    utils.o                   lib/utils.s(8)
+__SOFTSTACK_SIZE__ ([linker generated]):
+    startup.o                 lib/startup.s(10)
+__SOFTSTACK_START__ ([linker generated]):
+    startup.o                 lib/startup.s(10)
+__ZP_START__ ([linker generated]):
+    utils.o                   lib/utils.s(9)
+_addDMAChannel (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(27)
+    ExhibitView.o             out/ExhibitView.s(28)
+_addHDMAChannel (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(28)
+    ExhibitView.o             out/ExhibitView.s(29)
+_calculateRotScale (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(29)
+_clearAllDMA (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(26)
+    ExhibitView.o             out/ExhibitView.s(27)
+_exhibits (core.o):
+    ExhibitView.o             out/ExhibitView.s(36)
+_frame_count (core.o):
+    ExhibitView.o             out/ExhibitView.s(21)
+_init (core.o):
+    startup.o                 lib/startup.s(22)
+_initDMATransfer (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(22)
+    ExhibitView.o             out/ExhibitView.s(23)
+_initHDMATransfer (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(23)
+    ExhibitView.o             out/ExhibitView.s(24)
+_nmi (core.o):
+    startup.o                 lib/startup.s(24)
+_printsnes (snes_funcs.o):
+    DemoView.o                out/DemoView.s(23)
+_random (snes_funcs.o):
+    DemoView.o                out/DemoView.s(24)
+    ExhibitView.o             out/ExhibitView.s(30)
+_res_clr_bg_pal_pet2001 (data.o):
+    ExhibitView.o             out/ExhibitView.s(34)
+_res_clr_startup7 (data.o):
+    StartScreen.o             out/StartScreen.s(30)
+_res_map_border (data.o):
+    ExhibitView.o             out/ExhibitView.s(33)
+_res_map_startup7 (data.o):
+    StartScreen.o             out/StartScreen.s(32)
+_res_pic_border (data.o):
+    ExhibitView.o             out/ExhibitView.s(32)
+_res_pic_font (data.o):
+    ExhibitView.o             out/ExhibitView.s(31)
+_res_pic_startup7 (data.o):
+    StartScreen.o             out/StartScreen.s(31)
+_setDisp (snes_funcs.o):
+    DemoView.o                out/DemoView.s(21)
+    StartScreen.o             out/StartScreen.s(21)
+    ExhibitView.o             out/ExhibitView.s(22)
+_setPal (snes_funcs.o):
+    DemoView.o                out/DemoView.s(22)
+_sin_table_s (data.o):
+    StartScreen.o             out/StartScreen.s(33)
+    snes_funcs.o              out/snes_funcs.s(39)
+_sin_table_us (data.o):
+    StartScreen.o             out/StartScreen.s(34)
+_start (core.o):
+    startup.o                 lib/startup.s(23)
+_startDMATransfer (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(24)
+    ExhibitView.o             out/ExhibitView.s(25)
+_startHDMATransfer (snes_funcs.o):
+    StartScreen.o             out/StartScreen.s(25)
+    ExhibitView.o             out/ExhibitView.s(26)
+_text_table (vcfe_scroller.o):
+    ExhibitView.o             out/ExhibitView.s(35)
+_timeline (timeline.o):
+    core.o                    out/core.s(50)
+_vcfe_scroller_init (vcfe_scroller.o):
+    core.o                    out/core.s(49)
+addeq0sp (addeqsp.o):
+    DemoView.o                out/DemoView.s(275)
+    ExhibitView.o             out/ExhibitView.s(478)
+addeqysp (addeqsp.o):
+    ExhibitView.o             out/ExhibitView.s(484)
+    snes_funcs.o              out/snes_funcs.s(921)
+addysp (addysp.o):
+    incsp8.o                  incsp8.s(8)
+    incsp7.o                  incsp7.s(8)
+    incsp6.o                  incsp6.s(8)
+    incsp4.o                  incsp4.s(8)
+    incsp3.o                  incsp3.s(8)
+    DemoView.o                out/DemoView.s(370)
+    DemoView.o                out/DemoView.s(561)
+    StartScreen.o             out/StartScreen.s(517)
+    StartScreen.o             out/StartScreen.s(841)
+    ExhibitView.o             out/ExhibitView.s(397)
+    ExhibitView.o             out/ExhibitView.s(1506)
+    snes_funcs.o              out/snes_funcs.s(322)
+    snes_funcs.o              out/snes_funcs.s(443)
+    snes_funcs.o              out/snes_funcs.s(869)
+    snes_funcs.o              out/snes_funcs.s(925)
+addysp1 (addysp.o):
+    xor.o                     xor.s(8)
+    or.o                      or.s(8)
+    and.o                     and.s(8)
+aslax2 (aslax2.o):
+    ExhibitView.o             out/ExhibitView.s(314)
+    ExhibitView.o             out/ExhibitView.s(451)
+aslax4 (aslax4.o):
+    DemoView.o                out/DemoView.s(146)
+    ExhibitView.o             out/ExhibitView.s(313)
+    ExhibitView.o             out/ExhibitView.s(450)
+asrax2 (asrax2.o):
+    StartScreen.o             out/StartScreen.s(605)
+    ExhibitView.o             out/ExhibitView.s(1086)
+    snes_funcs.o              out/snes_funcs.s(729)
+asrax3 (asrax3.o):
+    snes_funcs.o              out/snes_funcs.s(742)
+asrax4 (asrax4.o):
+    DemoView.o                out/DemoView.s(108)
+    snes_funcs.o              out/snes_funcs.s(499)
+    snes_funcs.o              out/snes_funcs.s(532)
+    snes_funcs.o              out/snes_funcs.s(580)
+    snes_funcs.o              out/snes_funcs.s(728)
+callax (call.o):
+    core.o                    out/core.s(1151)
+    core.o                    out/core.s(1444)
+    core.o                    out/core.s(1534)
+    core.o                    out/core.s(1658)
+clear_snes (utils.o):
+    startup.o                 lib/startup.s(17)
+complax (compl.o):
+    StartScreen.o             out/StartScreen.s(606)
+    ExhibitView.o             out/ExhibitView.s(1087)
+copydata (utils.o):
+    startup.o                 lib/startup.s(26)
+decsp2 (decsp2.o):
+    core.o                    out/core.s(1038)
+    core.o                    out/core.s(1561)
+    ExhibitView.o             out/ExhibitView.s(989)
+    ExhibitView.o             out/ExhibitView.s(1353)
+decsp3 (decsp3.o):
+    DemoView.o                out/DemoView.s(388)
+decsp4 (decsp4.o):
+    core.o                    out/core.s(1135)
+    core.o                    out/core.s(1420)
+    core.o                    out/core.s(1510)
+    core.o                    out/core.s(1641)
+decsp5 (decsp5.o):
+    DemoView.o                out/DemoView.s(519)
+decsp6 (decsp6.o):
+    DemoView.o                out/DemoView.s(481)
+    ExhibitView.o             out/ExhibitView.s(1350)
+decsp8 (decsp8.o):
+    snes_funcs.o              out/snes_funcs.s(722)
+emu_irq (startup.o):
+    hdr.o                     lib/hdr.s(10)
+emu_nmi (startup.o):
+    hdr.o                     lib/hdr.s(9)
+emu_reset (startup.o):
+    hdr.o                     lib/hdr.s(11)
+end_force_vblank (utils.o):
+    startup.o                 lib/startup.s(20)
+force_vblank (utils.o):
+    startup.o                 lib/startup.s(19)
+inceaxy (linc.o):
+    core.o                    out/core.s(1049)
+incsp1 (incsp1.o):
+    snes_funcs.o              out/snes_funcs.s(76)
+    snes_funcs.o              out/snes_funcs.s(508)
+    snes_funcs.o              out/snes_funcs.s(1371)
+incsp2 (incsp2.o):
+    staxspi.o                 staxspi.s(8)
+    popsreg.o                 popsreg.s(8)
+    sndutils.o                lib/sndutils.s(10)
+    core.o                    out/core.s(1152)
+    core.o                    out/core.s(1445)
+    core.o                    out/core.s(1535)
+    core.o                    out/core.s(1659)
+    ExhibitView.o             out/ExhibitView.s(657)
+    snes_funcs.o              out/snes_funcs.s(466)
+    snes_funcs.o              out/snes_funcs.s(559)
+    snes_funcs.o              out/snes_funcs.s(634)
+incsp3 (incsp3.o):
+    snes_funcs.o              out/snes_funcs.s(103)
+    snes_funcs.o              out/snes_funcs.s(1289)
+incsp4 (incsp4.o):
+    sndutils.o                lib/sndutils.s(11)
+    core.o                    out/core.s(1372)
+    DemoView.o                out/DemoView.s(584)
+    DemoView.o                out/DemoView.s(610)
+    DemoView.o                out/DemoView.s(626)
+    StartScreen.o             out/StartScreen.s(864)
+    StartScreen.o             out/StartScreen.s(930)
+    StartScreen.o             out/StartScreen.s(946)
+    ExhibitView.o             out/ExhibitView.s(429)
+    ExhibitView.o             out/ExhibitView.s(1522)
+    ExhibitView.o             out/ExhibitView.s(1538)
+    snes_funcs.o              out/snes_funcs.s(1240)
+    snes_funcs.o              out/snes_funcs.s(1308)
+incsp6 (incsp6.o):
+    DemoView.o                out/DemoView.s(465)
+    DemoView.o                out/DemoView.s(648)
+    StartScreen.o             out/StartScreen.s(907)
+    ExhibitView.o             out/ExhibitView.s(971)
+    ExhibitView.o             out/ExhibitView.s(1590)
+    snes_funcs.o              out/snes_funcs.s(1324)
+incsp7 (incsp7.o):
+    utils.o                   lib/utils.s(10)
+incsp8 (incsp8.o):
+    ExhibitView.o             out/ExhibitView.s(1329)
+ldaidx (ldai.o):
+    StartScreen.o             out/StartScreen.s(409)
+    StartScreen.o             out/StartScreen.s(661)
+    snes_funcs.o              out/snes_funcs.s(679)
+native_irq (startup.o):
+    hdr.o                     lib/hdr.s(8)
+native_nmi (startup.o):
+    hdr.o                     lib/hdr.s(7)
+negax (neg.o):
+    shelp.o                   shelp.s(11)
+    mod.o                     mod.s(11)
+    snes_funcs.o              out/snes_funcs.s(811)
+popax (incsp2.o):
+    shl.o                     shl.s(15)
+    shelp.o                   shelp.s(11)
+popsargs (shelp.o):
+    mod.o                     mod.s(11)
+popsreg (popsreg.o):
+    umod.o                    umod.s(8)
+    udiv.o                    udiv.s(8)
+    mul8.o                    mul8.s(9)
+ptr1 (zeropage.o):
+    umod.o                    umod.s(9)
+    udiv.o                    udiv.s(9)
+    staxspi.o                 staxspi.s(9)
+    mod.o                     mod.s(12)
+    ldai.o                    ldai.s(8)
+    call.o                    call.s(8)
+    utils.o                   lib/utils.s(7)
+    core.o                    out/core.s(10)
+    DemoView.o                out/DemoView.s(10)
+    StartScreen.o             out/StartScreen.s(10)
+    ExhibitView.o             out/ExhibitView.s(10)
+    snes_funcs.o              out/snes_funcs.s(10)
+ptr2 (zeropage.o):
+    utils.o                   lib/utils.s(7)
+ptr4 (zeropage.o):
+    umod.o                    umod.s(9)
+    udiv.o                    udiv.s(9)
+    shelp.o                   shelp.s(12)
+    mul8.o                    mul8.s(10)
+    linc.o                    linc.s(8)
+push0 (pushax.o):
+    core.o                    out/core.s(1039)
+    DemoView.o                out/DemoView.s(101)
+    DemoView.o                out/DemoView.s(386)
+    StartScreen.o             out/StartScreen.s(262)
+    ExhibitView.o             out/ExhibitView.s(235)
+    ExhibitView.o             out/ExhibitView.s(413)
+    ExhibitView.o             out/ExhibitView.s(673)
+    ExhibitView.o             out/ExhibitView.s(987)
+    ExhibitView.o             out/ExhibitView.s(1351)
+    snes_funcs.o              out/snes_funcs.s(885)
+pusha (pusha.o):
+    DemoView.o                out/DemoView.s(399)
+    StartScreen.o             out/StartScreen.s(618)
+    ExhibitView.o             out/ExhibitView.s(1106)
+    snes_funcs.o              out/snes_funcs.s(223)
+    snes_funcs.o              out/snes_funcs.s(344)
+    snes_funcs.o              out/snes_funcs.s(500)
+    snes_funcs.o              out/snes_funcs.s(533)
+    snes_funcs.o              out/snes_funcs.s(581)
+pusha0 (pushax.o):
+    DemoView.o                out/DemoView.s(215)
+    snes_funcs.o              out/snes_funcs.s(226)
+    snes_funcs.o              out/snes_funcs.s(347)
+    snes_funcs.o              out/snes_funcs.s(652)
+pushax (pushax.o):
+    core.o                    out/core.s(1134)
+    core.o                    out/core.s(1419)
+    core.o                    out/core.s(1509)
+    core.o                    out/core.s(1576)
+    DemoView.o                out/DemoView.s(99)
+    DemoView.o                out/DemoView.s(438)
+    DemoView.o                out/DemoView.s(525)
+    DemoView.o                out/DemoView.s(646)
+    StartScreen.o             out/StartScreen.s(397)
+    StartScreen.o             out/StartScreen.s(649)
+    StartScreen.o             out/StartScreen.s(894)
+    ExhibitView.o             out/ExhibitView.s(233)
+    ExhibitView.o             out/ExhibitView.s(874)
+    ExhibitView.o             out/ExhibitView.s(1058)
+    ExhibitView.o             out/ExhibitView.s(1356)
+    ExhibitView.o             out/ExhibitView.s(1558)
+    snes_funcs.o              out/snes_funcs.s(662)
+    snes_funcs.o              out/snes_funcs.s(892)
+    snes_funcs.o              out/snes_funcs.s(1231)
+regsave (zeropage.o):
+    lsave.o                   lsave.s(8)
+    StartScreen.o             out/StartScreen.s(10)
+    ExhibitView.o             out/ExhibitView.s(10)
+    snes_funcs.o              out/snes_funcs.s(10)
+resteax (lsave.o):
+    core.o                    out/core.s(1056)
+restoreZP (utils.o):
+    startup.o                 lib/startup.s(28)
+saveeax (lsave.o):
+    core.o                    out/core.s(1047)
+shlax2 (aslax2.o):
+    snes_funcs.o              out/snes_funcs.s(1262)
+shlax4 (aslax4.o):
+    snes_funcs.o              out/snes_funcs.s(1271)
+sp (zeropage.o):
+    xor.o                     xor.s(9)
+    subysp.o                  subysp.s(9)
+    staxspi.o                 staxspi.s(9)
+    staxsp.o                  staxsp.s(8)
+    pushax.o                  pushax.s(8)
+    pusha.o                   pusha.s(8)
+    popsreg.o                 popsreg.s(9)
+    or.o                      or.s(9)
+    incsp2.o                  incsp2.s(8)
+    incsp1.o                  incsp1.s(8)
+    icmp.o                    icmp.s(9)
+    decsp8.o                  decsp8.s(8)
+    decsp6.o                  decsp6.s(8)
+    decsp5.o                  decsp5.s(8)
+    decsp4.o                  decsp4.s(8)
+    decsp3.o                  decsp3.s(8)
+    decsp2.o                  decsp2.s(8)
+    and.o                     and.s(9)
+    addysp.o                  addysp.s(8)
+    addeqsp.o                 addeqsp.s(8)
+    add.o                     add.s(11)
+    utils.o                   lib/utils.s(7)
+    sndutils.o                lib/sndutils.s(5)
+    core.o                    out/core.s(10)
+    DemoView.o                out/DemoView.s(10)
+    StartScreen.o             out/StartScreen.s(10)
+    ExhibitView.o             out/ExhibitView.s(10)
+    snes_funcs.o              out/snes_funcs.s(10)
+    startup.o                 lib/startup.s(11)
+sreg (zeropage.o):
+    udiv.o                    udiv.s(9)
+    shelp.o                   shelp.s(12)
+    popsreg.o                 popsreg.s(9)
+    mul8.o                    mul8.s(10)
+    lsave.o                   lsave.s(8)
+    linc.o                    linc.s(8)
+    icmp.o                    icmp.s(9)
+    core.o                    out/core.s(10)
+    ExhibitView.o             out/ExhibitView.s(10)
+stax0sp (staxsp.o):
+    core.o                    out/core.s(1572)
+    DemoView.o                out/DemoView.s(454)
+    DemoView.o                out/DemoView.s(517)
+    ExhibitView.o             out/ExhibitView.s(433)
+    ExhibitView.o             out/ExhibitView.s(845)
+    ExhibitView.o             out/ExhibitView.s(1166)
+    ExhibitView.o             out/ExhibitView.s(1366)
+    snes_funcs.o              out/snes_funcs.s(477)
+staxspidx (staxspi.o):
+    DemoView.o                out/DemoView.s(261)
+    ExhibitView.o             out/ExhibitView.s(893)
+    ExhibitView.o             out/ExhibitView.s(1421)
+    snes_funcs.o              out/snes_funcs.s(1238)
+staxysp (staxsp.o):
+    DemoView.o                out/DemoView.s(204)
+    DemoView.o                out/DemoView.s(503)
+    StartScreen.o             out/StartScreen.s(390)
+    StartScreen.o             out/StartScreen.s(559)
+    ExhibitView.o             out/ExhibitView.s(290)
+    ExhibitView.o             out/ExhibitView.s(418)
+    ExhibitView.o             out/ExhibitView.s(1080)
+    ExhibitView.o             out/ExhibitView.s(1371)
+    snes_funcs.o              out/snes_funcs.s(730)
+storeZP (utils.o):
+    startup.o                 lib/startup.s(27)
+subysp (subysp.o):
+    StartScreen.o             out/StartScreen.s(265)
+    StartScreen.o             out/StartScreen.s(539)
+    ExhibitView.o             out/ExhibitView.s(520)
+    ExhibitView.o             out/ExhibitView.s(683)
+    ExhibitView.o             out/ExhibitView.s(999)
+tmp1 (zeropage.o):
+    xor.o                     xor.s(9)
+    staxspi.o                 staxspi.s(9)
+    shl.o                     shl.s(16)
+    shelp.o                   shelp.s(12)
+    or.o                      or.s(9)
+    mod.o                     mod.s(12)
+    asrax4.o                  asrax4.s(9)
+    asrax3.o                  asrax3.s(9)
+    asrax2.o                  asrax2.s(8)
+    aslax4.o                  aslax4.s(8)
+    aslax2.o                  aslax2.s(8)
+    utils.o                   lib/utils.s(7)
+    DemoView.o                out/DemoView.s(10)
+    StartScreen.o             out/StartScreen.s(10)
+    ExhibitView.o             out/ExhibitView.s(10)
+    snes_funcs.o              out/snes_funcs.s(10)
+tmp2 (zeropage.o):
+    shelp.o                   shelp.s(12)
+tosaddax (add.o):
+    DemoView.o                out/DemoView.s(165)
+    ExhibitView.o             out/ExhibitView.s(340)
+tosandax (and.o):
+    core.o                    out/core.s(1589)
+tosaslax (shl.o):
+    snes_funcs.o              out/snes_funcs.s(231)
+    snes_funcs.o              out/snes_funcs.s(352)
+tosicmp (icmp.o):
+    snes_funcs.o              out/snes_funcs.s(905)
+tosmoda0 (mod.o):
+    DemoView.o                out/DemoView.s(127)
+    DemoView.o                out/DemoView.s(528)
+tosmodax (mod.o):
+    StartScreen.o             out/StartScreen.s(400)
+    StartScreen.o             out/StartScreen.s(652)
+    snes_funcs.o              out/snes_funcs.s(665)
+tosmula0 (mul8.o):
+    ExhibitView.o             out/ExhibitView.s(919)
+    ExhibitView.o             out/ExhibitView.s(1060)
+    ExhibitView.o             out/ExhibitView.s(1479)
+tosorax (or.o):
+    DemoView.o                out/DemoView.s(230)
+    snes_funcs.o              out/snes_funcs.s(232)
+    snes_funcs.o              out/snes_funcs.s(353)
+tosshlax (shl.o):
+    DemoView.o                out/DemoView.s(218)
+tosumoda0 (umod.o):
+    ExhibitView.o             out/ExhibitView.s(1358)
+tosumodax (umod.o):
+    ExhibitView.o             out/ExhibitView.s(1165)
+tosxorax (xor.o):
+    core.o                    out/core.s(1582)
+udiv16 (udiv.o):
+    umod.o                    umod.s(8)
+    mod.o                     mod.s(11)
+

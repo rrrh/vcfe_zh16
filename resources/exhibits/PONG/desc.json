@@ -1,0 +1,52 @@
+{
+    "number"		: "3",
+    "title" 		: "PONG",
+
+    "main_img"		: "PONG_180x180_8.png",
+    "icon_64_img"  	: "PONG_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+    "text"		: 
+			[	
+				"Pong is one of the earliest^",
+"arcade video games and the^",
+"very first sports arcade^",
+"video game. It is a table^",
+"tennis sports game featuring^",
+"simple two-dimensional^",
+"graphics. While other arcade^",
+"video games such as Computer^",
+"Space came before it, Pong^",
+"was one of the first video^",
+"games to reach mainstream^",
+"popularity. The aim is to^",
+"defeat an opponent in a^",
+"simulated table-tennis game^",
+"by earning a higher score.^",
+"The game was originally^",
+"manufactured by Atari,^",
+"which released it in 1972.^",
+"Allan Alcorn created Pong^",
+"as a training exercise^",
+"assigned to him by Atari^",
+"co-founder Nolan Bushnell.^"
+			],
+	
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+

@@ -1,0 +1,52 @@
+{
+    "number"		: "3",
+    "title" 		: "Apple_II",
+
+    "main_img"		: "Apple_II_180x180_8.png",
+    "icon_64_img"  	: "Apple_II_64x64_8.png",
+    "icon_32_img"  	: "None",
+    "icon_16_img"  	: "None",
+
+	"__comment" : "                            ",
+    "text"		: 
+			[	
+				"The Apple II, stylized as^",
+				"apple ][, is an 8-bit home^",
+				"computer, one of the first^",
+				"highly successful mass-^",
+				"produced microcomputer^",
+				"products, designed primarily^",
+				"by Steve Wozniak (Steve Jobs^",
+				"oversaw the development of^",
+				"the Apple II's foam-molded^",
+				"plastic case and Rod Holt^",
+				"developed the switching power^",
+				"supply). It was introduced in^",
+				"1977 at the West Coast^",
+				"Computer Faire by Jobs and^",
+				"was the first consumer^",
+				"product sold by Apple^",
+				"Computer. Along with the^",
+				"PET 2001 and the TRS-80,^",
+				"Byte magazine referred to^",
+				"these as the ''1977 Trinity''^",
+				"of personal computing.^"
+			],
+			
+	"bg_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		],
+	
+	"rot_table"	:
+		[
+			"0xFF",
+			"0xFF",
+			"0xFF",
+			"0xFF"
+		]
+}
+
