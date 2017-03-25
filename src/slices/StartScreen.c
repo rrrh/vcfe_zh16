@@ -8,38 +8,10 @@
 static volatile int exit_mode = 0;
 static unsigned char brightness = 0;
 
-static int a = 10, b = 0;
+static int a = 10;
 
 static int watch_dog = 0;
 
-
-static char hdma_text_table[] = {
-		0x7F, 0x13,
-		0x1D, 0x13,
-		0x38, 0x17,
-		0x0F, 0x12,
-		0x00,
-};
-
-static char blahdma_bg_table[] = {
-		0x10, 0x00, 0x00, 0x5f, 0x53,
-		0x10, 0x00, 0x00, 0x5f, 0x53,
-		0x10, 0x00, 0x00, 0x3f, 0x4b,
-		0x10, 0x00, 0x00, 0x1f, 0x47,
-		0x10, 0x00, 0x00, 0xff, 0x3e,
-		0x10, 0x00, 0x00, 0xdf, 0x36,
-		0x10, 0x00, 0x00, 0xbf, 0x2e,
-		0x10, 0x00, 0x00, 0x9f, 0x2a,
-		0x10, 0x00, 0x00, 0x7f, 0x22,
-		0x10, 0x00, 0x00, 0x5f, 0x1a,
-		0x10, 0x00, 0x00, 0x5f, 0x16,
-		0x10, 0x00, 0x00, 0x3f, 0x0e,
-		0x10, 0x00, 0x00, 0x3f, 0x0e,
-		0x10, 0x00, 0x00, 0x3f, 0x0e,
-		0x10, 0x00, 0x00, 0x3f, 0x0e,
-		0x10, 0x00, 0x00, 0x3f, 0x0e,
-		0x00,
-};
 
 unsigned char hdma_bg_table[] = {
 		0x10, 0x00, 0x00, 0x5f, 0x53,
@@ -181,6 +153,7 @@ static int nmi(enum SCENE_STATE state, void* param) {
 				//printsnes("switch to RUNNING");
 				return SCENE_STATE_RUNNING;
 			}
+			break;
 		case SCENE_STATE_RUNNING:
 			//M7D = 1 + b++;
 			//M7D = 0x00;//a++;
@@ -196,70 +169,7 @@ static int nmi(enum SCENE_STATE state, void* param) {
 			cos = (&sin_table_us)[(sin_offset + 64) % 256];
 
 			calculateRotScale(a, 128, 40, 512 + sin * 2, 512 + sin * 2);
-			//calculateRotScale(a, 0, 0, a, a);
 
-
-			// MPYL,M,H are multiply results
-			// M7A,B,C,D matrix elements
-			/*
-			 * [ A, B ]   [ X ]
-			 * [      ] * [   ]
-			 * [ C, D ]   [ Y ]
-			 *
-			 */
-
-			/*M7A = 0;
-			M7A = 1;
-			M7B = -sin;
-			A = MPYH;
-			A1 = MPYM;
-
-			M7A = 0;
-			M7A = 1;
-			M7B = cos;
-			B = MPYH;
-			B1 = MPYM;
-*/
-	//		oam_table_A[0].x = sin;
-	//		oam_table_A[0].y = cos;
-
-	//		oam_table_A[1].x--;
-//			oam_table_A[1].y += 2;
-
-		//	oam_table_A[2].x--;
-			//		oam_table_A[2].y += 2;
-
-				//	oam_table_A[3].x--;
-					//		oam_table_A[3].y += 2;
-
-		/*	i = 205;
-
-				// next
-				oam_table_A[0].x = 224 - ((&sin_table_s)[(i + 64) % 256]);
-				oam_table_A[0].y = 80 - (&sin_table_s)[(i + 0) % 256] / 2;
-				oam_table_A[0].tile = 0x00;
-				oam_table_A[0].attr = 0x30;
-
-				oam_table_A[1].x = 224 - (&sin_table_s)[(i + 89) % 256];
-				oam_table_A[1].y = 80 - (&sin_table_s)[(i + 25) % 256] / 2;
-				oam_table_A[1].tile = 0x08;
-				oam_table_A[1].attr = 0x32;
-
-				oam_table_A[2].x = 224 - (&sin_table_s)[(i + 114) % 256];
-				oam_table_A[2].y = 80 - (&sin_table_s)[(i + 50) % 256] / 2;
-				oam_table_A[2].tile = 0x80;
-				oam_table_A[2].attr = 0x34;
-
-				oam_table_A[3].x = 224 - (&sin_table_s)[(i + 139) % 256];
-				oam_table_A[3].y = 80 - (&sin_table_s)[(i + 75) % 256] / 2;
-				oam_table_A[3].tile = 0x88;
-				oam_table_A[3].attr = 0x36;
-
-				oam_table_A[4].x = 224 - (&sin_table_s)[(i + 164) % 256];
-				oam_table_A[4].y = 80 - (&sin_table_s)[(i + 100) % 256] / 2;
-				oam_table_A[4].tile = 0x00;
-				oam_table_A[4].attr = 0x30;
-	*/
 			// FIXME: add watchdog
 			watch_dog++;
 			if(exit_mode || watch_dog > 3000) {
@@ -286,16 +196,6 @@ static int nmi(enum SCENE_STATE state, void* param) {
 			break;
 	}
 
-//	OBJADDR = 0x00;
-//	addDMAChannel(7, 0x04, 0, oam_table_A, 512, DMA_MODE_BYTE);
-
-//	startDMATransfer();
-
-
-//	initHDMATransfer();
-//	addHDMAChannel(2, 0x21, 0, hdma_bg_table, 8, DMA_MODE_SHORT_TWICE);
-//	startHDMATransfer();
-
 	initHDMATransfer();
 	addHDMAChannel(2, 0x21, 0, hdma_bg_table, sizeof(hdma_bg_table), DMA_MODE_SHORT_TWICE);
 	startHDMATransfer();
@@ -321,6 +221,8 @@ static int run(enum SCENE_STATE state, void* param) {
 		default:
 			break;
 	}
+
+	return 0;
 }
 
 static int handle_key(enum SCENE_STATE state, void* param) {
@@ -331,14 +233,16 @@ static int handle_key(enum SCENE_STATE state, void* param) {
 	} else {
 		//printsnes("ignored\n");
 	}
+
+	return 0;
 }
 
 static int irq(enum SCENE_STATE state, void* param) {
-
+	return 0;
 }
 
 static int sync(enum SCENE_STATE state, void* param) {
-
+	return 0;
 }
 
 typedef struct StartScreenParams {

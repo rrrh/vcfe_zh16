@@ -32,7 +32,7 @@
 ; exhibit bg palettes
 
 _res_clr_bg_pal_pet2001:
-	.include "data/exibits/Commodore_PET2001/bg.clr"
+	.include "data/bg.clr"
 
 _sin_table_s:
 	.include "data/sin_table_s.s"

@@ -20,7 +20,6 @@ OBJECTS := 	out/startup.o 			\
 			out/snes_funcs.o	\
 			out/ExhibitView.o 	\
 			out/StartScreen.o 	\
-			out/DemoView.o 		\
 			out/timeline.o		\
 			out/core.o 		\
 			out/vcfe_scroller.o 	\
@@ -28,7 +27,6 @@ OBJECTS := 	out/startup.o 			\
 			out/utils.o		\
 			out/data.o		\
 			out/data_e.o		\
-			out/exibits.o		\
 			out/hdr.o			
 						
 			 			
